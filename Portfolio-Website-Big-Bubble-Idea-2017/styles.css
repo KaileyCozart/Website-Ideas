@@ -41,7 +41,12 @@ button:focus {
 }
 
 .whiteText {
-    color: white; 
+    color: white;
+    font-weight: 100; 
+}
+
+.lessMargin {
+    margin-bottom: -120px; 
 }
 
 .paddingHome {
@@ -151,13 +156,52 @@ button:focus {
 
 .footer {
     background-color: #0F0F0F; 
-    height: 200px;
-    margin-top: 50px; 
+    height: 150px; 
 }
 
 /* Skills CSS */
 
+.skillsRowWrapper {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%; 
+}
 
+.skillsListItem {
+    background-color: #0F0F0F; 
+    height: 300px; 
+    width: 20%;
+    margin-right: 4%;  
+    float: left;
+}
+
+.skillsListItem:first-of-type {
+    margin-left: 4%; 
+}
+
+@media screen and (max-width: 970px) {
+    .skillsListItem {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%; 
+        margin-bottom: 50px; 
+    }
+    .skillsListItem:first-of-type {
+        margin-left: 30%; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skillsListItem {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%; 
+        margin-bottom: 50px; 
+    }
+    .skillsListItem:first-of-type {
+        margin-left: 20%; 
+    }
+}
 
 /* Home CSS */
 
