@@ -4,14 +4,23 @@ body {
     margin: 0px; 
 }
 
-h1 {
-    color: white;
+h1, h2 {
     margin-top: 0px;
-    padding-top: 200px; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter; 
     text-align: center; 
     letter-spacing: 1.2px;
+}
+
+h1 {
+    padding-top: 200px; 
+    color: white; 
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 30px; 
+    color: black; 
 }
 
 h3 {
@@ -29,6 +38,10 @@ button {
 
 button:focus {
     outline: none;  
+}
+
+.whiteText {
+    color: white; 
 }
 
 .paddingHome {
@@ -63,6 +76,51 @@ button:focus {
 
 /* Bottom Bubble General CSS */ 
 
+
+.bottomBubble {
+    height: 1050px;
+    width: 100%;
+    background-color: #FF6E6B; 
+}
+
+.listItem {
+    background-color: #0F0F0F; 
+    height: 300px; 
+    width: 20%;
+    margin-right: 5%;  
+    float: left;
+}
+
+.listItem:first-of-type {
+    margin-left: 15%; 
+}
+
+@media screen and (max-width: 970px) {
+    .listItem {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%; 
+        margin-bottom: 50px; 
+    }
+    .listItem:first-of-type {
+        margin-left: 30%; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .listItem {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%; 
+        margin-bottom: 50px; 
+    }
+    .listItem:first-of-type {
+        margin-left: 20%; 
+    }
+}
+
+/* Triangle */ 
+
 .bubbleTriangle {
     width: 0; 
     height: 0; 
@@ -89,11 +147,12 @@ button:focus {
     left: 103px; 
 }
 
+/* Footer CSS */
 
-.bottomBubble {
-    height: 500px;
-    width: 100%;
-    background-color: #FF6E6B; 
+.footer {
+    background-color: #0F0F0F; 
+    height: 200px;
+    margin-top: 50px; 
 }
 
 /* Skills CSS */
@@ -106,3 +165,20 @@ button:focus {
 
 /* Contact CSS */
 
+.mediaListItemsWrapper {
+    height: 500px; 
+}
+
+.contactListItemsWrapper {
+    background: url(images/blackbackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    margin-top: 50px; 
+    height: 550px;  
+}
+
+.contactListItem {
+    background-color: #FF6E6B; 
+}
