@@ -1,0 +1,99 @@
+
+
+.wrapper {
+    background-image: url('images/couple.jpg');
+    height: 100%;
+}
+
+.circle{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.smith {
+    margin-right: 20px;
+    text-decoration: none;
+    z-index: 14;
+    color: black;
+    font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 4;
+}
+
+.smith:hover {
+    margin-right: 20px;
+    text-decoration: none;
+    z-index: 14;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 4;
+    font-style: italic; 
+}
+
+div.robbie{
+    background-color: white;
+    opacity: .5;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    z-index: 5;
+    margin-top: 100px;
+}
+
+.jerk {
+    z-index: 15;
+    background-color: none;
+}
+
+.j {
+    text-align: center;
+    letter-spacing: 30;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 2%;
+}
+
+#newfont{
+    font-family:'wreath';
+}
+
+@font-face {
+    font-family: 'fonts/web fonts/scriptina_regular_macroman';
+    src: url('fonts/web fonts/scriptina_regular_macroman/scriptina-webfont.eot');
+    src: url('fonts/web fonts/scriptina_regular_macroman/scriptina-webfont.woff') format('woff'),
+         url('fonts/web fonts/scriptina_regular_macroman/scriptina-webfont.ttf') format('truetype'),
+         url('fonts/web fonts/scriptina_regular_macroman/scriptina-webfont.eot') format('embedded-open-type'),
+         url('fonts/web fonts/scriptina_regular_macroman/scriptina-webfont.svg#scriptina_regular_macroman') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+h2 {
+    font-size: 10px;
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 7;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+
+
+
+
+div.whitespace {
+    background-color: white;
+    height: 100%;
+}
+
+div.greyspace {
+    background-color: white;
+    height: 20%;
+    opacity: .5;
+}

@@ -1,0 +1,61 @@
+body {
+    background-image: url("images/tacoma.jpg");
+    background-attachment: fixed; 
+    background-size: cover;  
+    margin: 0px;
+}
+
+.smith {
+    margin-right: 20px;
+    text-decoration: none;
+    z-index: 14;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 4;
+}
+
+div.robbie {
+    background-color: grey;
+    opacity: .6;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    padding-top: 1%;
+    text-align: center;
+    z-index: 5;
+}
+
+div.si{
+    height: 35%;
+    width: 100%;
+    background-color: grey; 
+    opacity: 0.5;
+}
+
+div.ciera {
+    z-index: 15;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    top: 15px;
+}
+
+div.sarah {
+    height: 180%;
+    width: 100%;
+    background-color: grey; 
+    opacity: 0.5;
+    z-index: 13;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 15;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}

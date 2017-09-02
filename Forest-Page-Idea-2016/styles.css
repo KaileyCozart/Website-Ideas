@@ -1,0 +1,49 @@
+body {
+    background-image: url("images/coolforest.jpg");
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+div.bob {
+    margin: 50px;
+    margin-left: 50%;
+    margin-top: -50%;
+    margin-bottom: 5%;
+    background: forestgreen;
+    position: fixed;
+    width: 540px;
+    height: 500px;
+    border-radius: 50px;
+    opacity: .8;
+}
+
+div.franklin {
+    margin: 50px;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    background: forestgreen;
+    background-attachment: scroll;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: .95;
+    padding-left: 65px;
+    padding-top: 65px;
+}
+
+
+div.franklin:hover {
+    margin: 50px;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    background: forestgreen;
+    background-attachment: scroll;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: .85;
+    padding-left: 65px;
+    padding-top: 65px;
+}
