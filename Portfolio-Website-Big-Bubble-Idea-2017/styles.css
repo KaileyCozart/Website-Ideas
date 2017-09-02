@@ -7,7 +7,7 @@ body {
 h1 {
     color: white;
     margin-top: 0px;
-    padding-top: 50px; 
+    padding-top: 200px; 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter; 
     text-align: center; 
@@ -20,6 +20,15 @@ h3 {
     font-weight: lighter; 
     letter-spacing: 1.2px;
     display: inline; 
+}
+
+button {
+    background-color: transparent; 
+    border-width: 0px;
+}
+
+button:focus {
+    outline: none;  
 }
 
 .paddingHome {
@@ -40,15 +49,19 @@ h3 {
 .heroDiv {
     height: 500px;
     width: 100%;
-    background-color: #233E63; 
+    background: url(images/blackbackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .navButtons {
-    margin-top: 350px; 
+    margin-top: 200px; 
     text-align: center; 
 }
 
-/* Bottom Bubble CSS */ 
+/* Bottom Bubble General CSS */ 
 
 .bubbleTriangle {
     width: 0; 
@@ -61,8 +74,35 @@ h3 {
     margin-top: -30px; 
 }
 
+.skillsTriangle {
+    position: relative;
+    left: -94px; 
+}
+
+.homeTriangle {
+    position: relative; 
+    left: 0.5px; 
+}
+
+.contactTriangle {
+    position: relative;
+    left: 103px; 
+}
+
+
 .bottomBubble {
     height: 500px;
     width: 100%;
     background-color: #FF6E6B; 
 }
+
+/* Skills CSS */
+
+
+
+/* Home CSS */
+
+
+
+/* Contact CSS */
+
