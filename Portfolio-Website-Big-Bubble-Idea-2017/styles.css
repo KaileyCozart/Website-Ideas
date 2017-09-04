@@ -31,6 +31,26 @@ h3 {
     display: inline; 
 }
 
+h5 {
+    margin-top: 0px;
+    padding-top: 35px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline; 
+}
+
+h6 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none; 
+}
+
 button {
     background-color: transparent; 
     border-width: 0px;
@@ -49,12 +69,16 @@ button:focus {
     margin-bottom: -120px; 
 }
 
-.paddingLeft {
-    padding-left: 30px;
+.contactText {
+    margin-left: -120px; 
 }
 
-.paddingRight {
-    padding-right: 30px;
+.skillsText {
+    margin-left: 0px; 
+}
+
+.aboutText {
+    margin-right: -100px; 
 }
 
 /* Hero Div CSS */ 
@@ -134,17 +158,17 @@ button:focus {
 
 .skillsTriangle {
     position: relative;
-    left: 9px; 
+    left: 0px; 
 }
 
 .contactTriangle {
     position: relative; 
-    left: -89px; 
+    left: -95px; 
 }
 
 .aboutTriangle {
     position: relative;
-    left: 100px; 
+    left: 90px; 
 }
 
 /* Footer CSS */
@@ -154,7 +178,18 @@ button:focus {
     height: 150px; 
 }
 
-/* Skills CSS */
+.aboutFooter, .skillsFooter, .contactFooter {
+    width: 20%;
+    margin-right: 5%; 
+    float: left;
+    text-align: center; 
+}
+
+.contactFooter {
+    margin-left: 15%; 
+}
+
+/* Skills & About CSS */
 
 .skillsOuterWrapper {
     width: 80%;
@@ -189,7 +224,7 @@ button:focus {
     margin-right: 27.5%; 
 }
 
-.otherWebsitesDiv {
+.pinkContainer {
     background-color: #FF6E6B; 
     height: 550px;
 }
@@ -209,10 +244,6 @@ button:focus {
 .otherWebsitesListItem:last-of-type {
     margin-right: 18.5%;
 }
-
-/* About CSS */
-
-
 
 /* Contact CSS */
 
