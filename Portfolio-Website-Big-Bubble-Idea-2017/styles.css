@@ -189,6 +189,26 @@ button:focus {
     margin-right: 27.5%; 
 }
 
+.otherWebsitesDiv {
+    background-color: #FF6E6B; 
+    height: 550px;
+}
+
+.otherWebsitesListItem {
+    background-color: #0F0F0F; 
+    height: 300px;
+    width: 30%; 
+    float: left; 
+}
+
+.otherWebsitesListItem:first-of-type {
+    margin-left: 18.5%;
+    margin-right: 3%;
+}
+
+.otherWebsitesListItem:last-of-type {
+    margin-right: 18.5%;
+}
 
 /* About CSS */
 
@@ -206,7 +226,6 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-    margin-top: 50px; 
     height: 550px;  
 }
 
