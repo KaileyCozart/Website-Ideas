@@ -263,3 +263,18 @@ button:focus {
 .contactListItem {
     background-color: #FF6E6B; 
 }
+
+/* Images CSS */
+
+img {
+    height: 100px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px; 
+}
+
+.socialLinkText {
+    width: 90%;
+    max-height: 25%;  
+}
