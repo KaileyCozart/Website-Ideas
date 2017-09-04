@@ -49,17 +49,12 @@ button:focus {
     margin-bottom: -120px; 
 }
 
-.paddingHome {
-    padding-left: 20px; 
-}
-
 .paddingLeft {
     padding-left: 30px;
 }
 
 .paddingRight {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 30px;
 }
 
 /* Hero Div CSS */ 
@@ -139,17 +134,17 @@ button:focus {
 
 .skillsTriangle {
     position: relative;
-    left: 20px; 
+    left: 9px; 
 }
 
 .contactTriangle {
     position: relative; 
-    left: -95px; 
+    left: -89px; 
 }
 
 .aboutTriangle {
     position: relative;
-    left: 103px; 
+    left: 100px; 
 }
 
 /* Footer CSS */
@@ -161,60 +156,35 @@ button:focus {
 
 /* Skills CSS */
 
-.skillsRowWrapper {
-    width: 75%;
-    margin-left: 7.5%;
-    margin-right: 7.5%; 
-}
-
 .skillsListItem {
     background-color: #0F0F0F;
     border-radius: 50%; 
-    height: 100px; 
-    width: 100px;
+    height: 12.5vw; 
+    width: 12.5%;
+    margin-left: 10%; 
     float: left;
+}
+
+.skillsListItemsWrapper {
+    height: 200px;
+}
+
+.skillsListItemsWrapperTwo {
+    height: 200px;
+    margin-top: 200px;
+    margin-bottom: 100px; 
 }
 
 .experienceListItem {
     background-color: #0F0F0F; 
     height: 300px; 
-    width: 37%;
+    width: 45%;
+    margin-left: 27.5%; 
+    margin-right: 27.5%; 
 }
 
-.experienceListItem:first-of-type {
-    margin-left: 10.7%; 
-    margin-right: 4.6%; 
-}
 
-.experienceListItem:last-of-type {
-    margin-right: 10.7%; 
-}
-
-@media screen and (max-width: 970px) {
-    .experienceListItem {
-        width: 40%;
-        margin-left: 30%;
-        margin-right: 30%; 
-        margin-bottom: 50px; 
-    }
-    .experienceListItem:first-of-type {
-        margin-left: 30%; 
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .experienceListItem {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%; 
-        margin-bottom: 50px; 
-    }
-    .experienceListItem:first-of-type {
-        margin-left: 20%; 
-    }
-}
-
-/* Home CSS */
+/* About CSS */
 
 
 
