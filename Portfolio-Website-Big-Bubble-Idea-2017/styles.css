@@ -156,10 +156,16 @@ button:focus {
 
 /* Skills CSS */
 
+.skillsOuterWrapper {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%; 
+}
+
 .skillsListItem {
     background-color: #0F0F0F;
     border-radius: 50%; 
-    height: 12.5vw; 
+    height: 9.894vw; 
     width: 12.5%;
     margin-left: 10%; 
     float: left;
