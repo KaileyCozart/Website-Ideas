@@ -69,6 +69,10 @@ button:focus {
     margin-bottom: -120px; 
 }
 
+.paddingTop {
+    padding-top: 30px;
+}
+
 .contactText {
     margin-left: -120px; 
 }
@@ -79,6 +83,11 @@ button:focus {
 
 .aboutText {
     margin-right: -100px; 
+}
+
+.websiteText {
+    margin-top: -40px;
+    font-size: 17px; 
 }
 
 /* Hero Div CSS */ 
@@ -221,7 +230,12 @@ button:focus {
     height: 300px; 
     width: 45%;
     margin-left: 27.5%; 
-    margin-right: 27.5%; 
+    margin-right: 27.5%;
+    padding-top: 10px; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2; 
+    color: white;
 }
 
 .pinkContainer {
@@ -245,13 +259,38 @@ button:focus {
     margin-right: 18.5%;
 }
 
+.aboutMeListItem {
+    background-color: #0F0F0F; 
+    height: 300px;
+    float: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2; 
+    color: white;
+}
+
+.aboutMeListItem:first-of-type {
+    width: 15%;
+    margin-left: 18.5%;
+    margin-right: 3%;
+}
+
+.aboutMeListItem:last-of-type {
+    width: 45%; 
+    margin-right: 18.5%;
+}
+
+.textContainer {
+    margin: 50px; 
+}
+
 /* Contact CSS */
 
 .mediaListItemsWrapper {
     height: 500px; 
 }
 
-.contactListItemsWrapper {
+.blackContainer {
     background: url(images/blackbackground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -277,4 +316,16 @@ img {
 .socialLinkText {
     width: 90%;
     max-height: 25%;  
+}
+
+.fitImg {
+    width: 100%;
+    min-height: 100%;
+    margin-top: 0px;
+}
+
+.fitImg2 {
+    width: 100%;
+    height: 87%; 
+    margin-top: 0px;
 }
