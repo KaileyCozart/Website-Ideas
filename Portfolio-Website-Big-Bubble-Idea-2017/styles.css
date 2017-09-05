@@ -51,6 +51,11 @@ a {
     text-decoration: none; 
 }
 
+.textA {
+    color: white;
+    text-decoration: underline; 
+}
+
 button {
     background-color: transparent; 
     border-width: 0px;
@@ -125,7 +130,7 @@ button:focus {
     float: left;
 }
 
-.listItem:first-of-type {
+.listItemFirst {
     margin-left: 15%; 
 }
 
@@ -136,7 +141,7 @@ button:focus {
         margin-right: 30%; 
         margin-bottom: 50px; 
     }
-    .listItem:first-of-type {
+    .listItemFirst {
         margin-left: 30%; 
     }
 }
@@ -148,7 +153,7 @@ button:focus {
         margin-right: 20%; 
         margin-bottom: 50px; 
     }
-    .listItem:first-of-type {
+    .listItemFirst {
         margin-left: 20%; 
     }
 }
@@ -253,12 +258,12 @@ button:focus {
     float: left; 
 }
 
-.otherWebsitesListItem:first-of-type {
+.otherWebsitesListItemFirst {
     margin-left: 18.5%;
     margin-right: 3%;
 }
 
-.otherWebsitesListItem:last-of-type {
+.otherWebsitesListItemLast {
     margin-right: 18.5%;
 }
 
@@ -272,13 +277,13 @@ button:focus {
     color: white;
 }
 
-.aboutMeListItem:first-of-type {
+.aboutMeListItemFirst {
     width: 15%;
     margin-left: 18.5%;
     margin-right: 3%;
 }
 
-.aboutMeListItem:last-of-type {
+.aboutMeListItemLast {
     width: 45%; 
     margin-right: 18.5%;
 }
