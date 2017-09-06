@@ -214,7 +214,7 @@ button:focus {
 }
 
 .skillsListItem {
-    background-color: #0F0F0F;
+    background-color: #909090;
     border-radius: 50%; 
     height: 9.894vw; 
     width: 12.5%;
@@ -238,17 +238,58 @@ button:focus {
     width: 45%;
     margin-left: 27.5%; 
     margin-right: 27.5%;
-    padding-top: 10px; 
+    padding: 10px; 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2; 
     color: white;
 }
 
-.pinkContainer {
+@media screen and (max-width: 1300px) {
+    .experienceListItem {
+        height: 350px; 
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .experienceListItem {
+        padding-top: 50px; 
+        height: 450px; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .experienceListItem {
+        padding-top: 50px; 
+        height: 500px; 
+    }
+}
+
+@media screen and (max-width: 623px) {
+    .experienceListItem {
+        padding-top: 50px; 
+        height: 600px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .experienceListItem {
+        padding-top: 50px; 
+        height: 650px; 
+    }
+}
+
+.greyContainer {
     /* background-color: #FF6E6B; */ 
     background-color: #909090; 
     height: 550px;
+}
+
+@media screen and (max-width: 970px) {
+    .greyContainer {
+        height: 1000px;
+        margin-bottom: -1000px; 
+    }
 }
 
 .otherWebsitesListItem {
@@ -265,6 +306,15 @@ button:focus {
 
 .otherWebsitesListItemLast {
     margin-right: 18.5%;
+}
+
+@media screen and (max-width: 970px) {
+    .otherWebsitesListItem {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 50px;
+    }
 }
 
 .aboutMeListItem {
@@ -298,6 +348,21 @@ button:focus {
     height: 500px; 
 }
 
+@media screen and (max-width: 1200px) {
+    .mediaListItem {
+        height: 250px;
+    }
+    .socialLinkText {
+        max-width: 250px; 
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .mediaListItemsWrapper {
+        height: 1050px; 
+    }
+}
+
 .blackContainer {
     background: url(images/blackbackground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -305,6 +370,18 @@ button:focus {
     -o-background-size: cover;
     background-size: cover; 
     height: 550px;  
+}
+
+@media screen and (max-width: 970px) {
+    .blackContainer {
+        height: 900px; 
+    }
+    .footer {
+        margin-top: 900px; 
+    }
+    .specialWhiteText {
+        font-size: 15px; 
+    }
 }
 
 .contactListItem {
@@ -327,6 +404,12 @@ img {
     max-height: 25%;  
 }
 
+@media screen and (max-width: 1200px) {
+    .socialLinkText {
+        max-height: 50px; 
+    }
+}
+
 .fitImg {
     width: 100%;
     min-height: 100%;
@@ -335,7 +418,7 @@ img {
 
 .fitImg2 {
     width: 100%;
-    height: 85%; 
+    height: 85%;
     margin-top: 0px;
 }
 
