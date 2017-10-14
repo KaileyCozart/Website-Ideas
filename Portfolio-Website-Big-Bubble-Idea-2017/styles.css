@@ -1,103 +1,104 @@
-/* General CSS */ 
+/* General CSS */
 
 body {
-    margin: 0px; 
-}
-
-h1, h2 {
+    margin: 0px;
+ }
+ 
+ h1, h2 {
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter; 
-    text-align: center; 
+    font-weight: lighter;
+    text-align: center;
     letter-spacing: 1.2px;
-}
-
-h1 {
-    padding-top: 200px; 
-    color: white; 
-}
-
-h2 {
+ }
+ 
+ h1 {
+    padding-top: 200px;
+    color: white;
+ }
+ 
+ h2 {
     padding-top: 50px;
-    padding-bottom: 30px; 
-    color: black; 
-}
-
-h3 {
+    padding-bottom: 30px;
+    color: black;
+ }
+ 
+ h3 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter; 
+    font-weight: lighter;
+    font-size: 12.75px;
     letter-spacing: 1.2px;
-    display: inline; 
-}
-
-h5 {
+    display: inline;
+ }
+ 
+ h5 {
     margin-top: 0px;
     padding-top: 20px;
     margin-bottom: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline; 
-}
-
-h6 {
+    text-decoration: underline;
+ }
+ 
+ h6 {
     margin-top: 0px;
     margin-bottom: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    text-decoration: none; 
-}
-
-.textA {
+ }
+ 
+ a {
+    text-decoration: none;
+ }
+ 
+ .textA {
     color: white;
-    text-decoration: underline; 
-}
-
-button {
-    background-color: transparent; 
+    text-decoration: underline;
+ }
+ 
+ button {
+    background-color: transparent;
     border-width: 0px;
-}
-
-button:focus {
-    outline: none;  
-}
-
-.whiteText {
+ }
+ 
+ button:focus {
+    outline: none; 
+ }
+ 
+ .whiteText {
     color: white;
-    font-weight: 100; 
-}
-
-.lessMargin {
-    margin-bottom: -120px; 
-}
-
-.paddingTop {
+    font-weight: 100;
+ }
+ 
+ .lessMargin {
+    margin-bottom: -120px;
+ }
+ 
+ .paddingTop {
     padding-top: 30px;
-}
-
-.contactText {
-    margin-left: -120px; 
-}
-
-.skillsText {
-    margin-left: 0px; 
-}
-
-.aboutText {
-    margin-right: -100px; 
-}
-
-.websiteText {
+ }
+ 
+ .contactText {
+    margin-left: -120px;
+ }
+ 
+ .skillsText {
+    margin-left: 0px;
+ }
+ 
+ .aboutText {
+    margin-right: -100px;
+ }
+ 
+ .websiteText {
     margin-top: -37px;
-    font-size: 17px; 
-}
-
-/* Hero Div CSS */ 
-
-.heroDiv {
+    font-size: 17px;
+ }
+ 
+ /* Hero Div CSS */
+ 
+ .heroDiv {
     height: 500px;
     width: 100%;
     background: url(images/blackbackground.jpg) no-repeat center center fixed;
@@ -105,324 +106,249 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.navButtons {
-    margin-top: 200px; 
-    text-align: center; 
-}
-
-/* Bottom Bubble General CSS */ 
-
-
-.bottomBubble {
+ }
+ 
+ .navButtons {
+    margin-top: 200px;
+    text-align: center;
+ }
+ 
+ /* Bottom Bubble General CSS */
+ 
+ 
+ .bottomBubble {
     height: 1050px;
     width: 100%;
     /* background-color: #FF6E6B; */
-    background-color: #909090; 
-}
-
-.listItem {
-    background-color: #0F0F0F; 
-    height: 300px; 
-    width: 20%;
-    margin-right: 5%;  
-    float: left;
-}
-
-.listItemFirst {
-    margin-left: 15%; 
-}
-
-@media screen and (max-width: 970px) {
-    .listItem {
-        width: 40%;
-        margin-left: 30%;
-        margin-right: 30%; 
-        margin-bottom: 50px; 
-    }
-    .listItemFirst {
-        margin-left: 30%; 
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .listItem {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%; 
-        margin-bottom: 50px; 
-    }
-    .listItemFirst {
-        margin-left: 20%; 
-    }
-}
-
-/* Triangle */ 
-
-.bubbleTriangle {
-    width: 0; 
-    height: 0; 
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    /* border-bottom: 30px solid #FF6E6B; */
-    border-bottom: 30px solid #909090;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: -30px; 
-}
-
-.skillsTriangle {
-    position: relative;
-    left: 0px; 
-}
-
-.contactTriangle {
-    position: relative; 
-    left: -95px; 
-}
-
-.aboutTriangle {
-    position: relative;
-    left: 90px; 
-}
-
-/* Footer CSS */
-
-.footer {
-    background-color: #0F0F0F; 
-    height: 150px; 
-}
-
-.aboutFooter, .skillsFooter, .contactFooter {
+    background-color: #909090;
+ }
+ 
+ .listItem {
+    background-color: #0F0F0F;
+    height: 300px;
     width: 20%;
     margin-right: 5%; 
     float: left;
-    text-align: center; 
-}
-
-.contactFooter {
-    margin-left: 15%; 
-}
-
-/* Skills & About CSS */
-
-.skillsOuterWrapper {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%; 
-}
-
-.skillsListItem {
-    background-color: #909090;
-    border-radius: 50%; 
-    height: 9.894vw; 
-    width: 12.5%;
-    margin-left: 10%; 
-    float: left;
-}
-
-.skillsListItemsWrapper {
-    height: 200px;
-}
-
-.skillsListItemsWrapperTwo {
-    height: 200px;
-    margin-top: 200px;
-    margin-bottom: 100px; 
-}
-
-.experienceListItem {
-    background-color: #0F0F0F; 
-    height: 300px; 
-    width: 45%;
-    margin-left: 27.5%; 
-    margin-right: 27.5%;
-    padding: 10px; 
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 2; 
-    color: white;
-}
-
-@media screen and (max-width: 1300px) {
-    .experienceListItem {
-        height: 350px; 
-    }
-}
-
-@media screen and (max-width: 970px) {
-    .experienceListItem {
-        padding-top: 50px; 
-        height: 450px; 
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .experienceListItem {
-        padding-top: 50px; 
-        height: 500px; 
-    }
-}
-
-@media screen and (max-width: 623px) {
-    .experienceListItem {
-        padding-top: 50px; 
-        height: 600px; 
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .experienceListItem {
-        padding-top: 50px; 
-        height: 650px; 
-    }
-}
-
-.greyContainer {
-    /* background-color: #FF6E6B; */ 
-    background-color: #909090; 
-    height: 550px;
-}
-
-@media screen and (max-width: 970px) {
-    .greyContainer {
-        height: 1000px;
-        margin-bottom: -1000px; 
-    }
-}
-
-.otherWebsitesListItem {
-    background-color: #0F0F0F; 
-    height: 300px;
-    width: 30%; 
-    float: left; 
-}
-
-.otherWebsitesListItemFirst {
-    margin-left: 18.5%;
-    margin-right: 3%;
-}
-
-.otherWebsitesListItemLast {
-    margin-right: 18.5%;
-}
-
-@media screen and (max-width: 970px) {
-    .otherWebsitesListItem {
+ }
+ 
+ .listItemFirst {
+    margin-left: 15%;
+ }
+ 
+ @media screen and (max-width: 970px) {
+    .listItem {
         width: 40%;
         margin-left: 30%;
         margin-right: 30%;
         margin-bottom: 50px;
     }
-}
-
-.aboutMeListItem {
-    background-color: #0F0F0F; 
+    .listItemFirst {
+        margin-left: 30%;
+    }
+ }
+ 
+ @media screen and (max-width: 500px) {
+    .listItem {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 50px;
+    }
+    .listItemFirst {
+        margin-left: 20%;
+    }
+ }
+ 
+ /* Triangle */
+ 
+ .bubbleTriangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    /* border-bottom: 30px solid #FF6E6B; */
+    border-bottom: 30px solid #909090;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+ }
+ 
+ .skillsTriangle {
+    position: relative;
+    left: 0px;
+ }
+ 
+ .contactTriangle {
+    position: relative;
+    left: -95px;
+ }
+ 
+ .aboutTriangle {
+    position: relative;
+    left: 90px;
+ }
+ 
+ /* Footer CSS */
+ 
+ .footer {
+    background-color: #0F0F0F;
+    height: 150px;
+ }
+ 
+ .aboutFooter, .skillsFooter, .contactFooter {
+    width: 20%;
+    margin-right: 5%;
+    float: left;
+    text-align: center;
+ }
+ 
+ .contactFooter {
+    margin-left: 15%;
+ }
+ 
+ /* Skills & About CSS */
+ 
+ .skillsOuterWrapper {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+ }
+ 
+ .skillsListItem {
+    background-color: #0F0F0F;
+    border-radius: 50%;
+    /*height: 9.894vw;
+    width: 12.5%;*/
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    float: left;
+ }
+ 
+ .skillsListItemsWrapper {
+    height: 750px;
+ }
+ 
+ .skillsBox {
+    float: right;
+ }
+ 
+ @media screen and (max-width: 575px) {
+    .skillsListItem {
+        margin-left: auto;
+    }
+ }
+ 
+ .experienceListItem {
+    background-color: #0F0F0F;
+    height: 300px;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    color: white;
+ }
+ 
+ .pinkContainer {
+    /* background-color: #FF6E6B; */
+    background-color: #909090;
+    height: 550px;
+ }
+ 
+ .otherWebsitesListItem {
+    background-color: #0F0F0F;
+    height: 300px;
+    width: 30%;
+    float: left;
+ }
+ 
+ .otherWebsitesListItemFirst {
+    margin-left: 18.5%;
+    margin-right: 3%;
+ }
+ 
+ .otherWebsitesListItemLast {
+    margin-right: 18.5%;
+ }
+ 
+ .aboutMeListItem {
+    background-color: #0F0F0F;
     height: 300px;
     float: left;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 2; 
+    line-height: 2;
     color: white;
-}
-
-.aboutMeListItemFirst {
+ }
+ 
+ .aboutMeListItemFirst {
     width: 15%;
     margin-left: 18.5%;
     margin-right: 3%;
-}
-
-.aboutMeListItemLast {
-    width: 45%; 
+ }
+ 
+ .aboutMeListItemLast {
+    width: 45%;
     margin-right: 18.5%;
-}
-
-.textContainer {
-    margin: 50px; 
-}
-
-/* Contact CSS */
-
-.mediaListItemsWrapper {
-    height: 500px; 
-}
-
-@media screen and (max-width: 1200px) {
-    .mediaListItem {
-        height: 250px;
-    }
-    .socialLinkText {
-        max-width: 250px; 
-    }
-}
-
-@media screen and (max-width: 970px) {
-    .mediaListItemsWrapper {
-        height: 1050px; 
-    }
-}
-
-.blackContainer {
+ }
+ 
+ .textContainer {
+    margin: 50px;
+ }
+ 
+ /* Contact CSS */
+ 
+ .mediaListItemsWrapper {
+    height: 500px;
+ }
+ 
+ .blackContainer {
     background: url(images/blackbackground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
-    height: 550px;  
-}
-
-@media screen and (max-width: 970px) {
-    .blackContainer {
-        height: 900px; 
-    }
-    .footer {
-        margin-top: 900px; 
-    }
-    .specialWhiteText {
-        font-size: 15px; 
-    }
-}
-
-.contactListItem {
-    /* background-color: #FF6E6B; */ 
+    background-size: cover;
+    height: 550px; 
+ }
+ 
+ .contactListItem {
+    /* background-color: #FF6E6B; */
     background-color: #909090;
-}
-
-/* Images CSS */
-
-img {
+ }
+ 
+ /* Images CSS */
+ 
+ img {
     height: 100px;
-    display: block; 
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 28px; 
-}
-
-.socialLinkText {
+    margin-top: 28px;
+ }
+ 
+ .socialLinkText {
     width: 90%;
-    max-height: 25%;  
-}
-
-@media screen and (max-width: 1200px) {
-    .socialLinkText {
-        max-height: 50px; 
-    }
-}
-
-.fitImg {
+    max-height: 25%; 
+ }
+ 
+ .fitImg {
     width: 100%;
     min-height: 100%;
     margin-top: 0px;
-}
-
-.fitImg2 {
+ }
+ 
+ .fitImg2 {
     width: 100%;
     height: 85%;
     margin-top: 0px;
-}
-
-.logo {
-    margin-top: 0px; 
-    margin-bottom: -60px; 
-}
+ }
+ 
+ .logo {
+    margin-top: 0px;
+    margin-bottom: -60px;
+ }
+ 
+ 
