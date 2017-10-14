@@ -21,6 +21,7 @@ body {
     padding-top: 50px;
     padding-bottom: 30px;
     color: black;
+    font-size: 1.5em;
  }
  
  h3 {
@@ -217,8 +218,6 @@ body {
  .skillsListItem {
     background-color: #0F0F0F;
     border-radius: 50%;
-    /*height: 9.894vw;
-    width: 12.5%;*/
     margin-bottom: 25px;
     width: 150px;
     height: 150px;
@@ -229,16 +228,20 @@ body {
     height: 750px;
  }
  
- .skillsBox {
-    float: right;
- }
- 
- @media screen and (max-width: 575px) {
+@media screen and (max-width: 391px) {
     .skillsListItem {
-        margin-left: auto;
+        margin-left: 25%;
+        margin-right: 25%;
     }
- }
- 
+}
+
+@media screen and (max-width: 589px) {
+    .skillsListItem {
+        margin-left: 31%;
+        margin-right: 31%;
+    }
+}
+
  .experienceListItem {
     background-color: #0F0F0F;
     height: 300px;
