@@ -376,4 +376,12 @@ body {
     margin-bottom: -60px;
  }
  
- 
+ /* Javascript Classes */
+
+ .hidden {
+     visibility: hidden;
+ }
+
+ .visible {
+     visibility: visible;
+ }
