@@ -376,6 +376,11 @@ body {
     margin-bottom: -60px;
  }
  
+.arrowImg {
+    margin-top: 0px;
+    height: 20px;
+}
+
  /* Javascript Classes */
 
  .hidden {
