@@ -323,6 +323,10 @@ body {
  .textContainer {
     margin: 50px;
  }
+
+ .otherWebsitesBlackDiv {
+     padding: 0px;
+ }
  
  /* Contact CSS */
  
@@ -366,8 +370,8 @@ body {
  }
  
  .fitImg2 {
-    width: 100%;
-    height: 85%;
+    width: 250px;
+    height: 125px;
     margin-top: 0px;
  }
  
