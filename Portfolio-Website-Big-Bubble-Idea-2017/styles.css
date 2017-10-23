@@ -363,7 +363,7 @@ body {
     }
 }
 
-.otherWebsitesListItem:hover, .skillsListItem:hover {
+.otherWebsitesListItem:hover, .skillsListItem:hover, .mediaListItem:hover {
     -webkit-box-shadow: 0 0 10px #fff;
     box-shadow: 0 0 10px #fff;
 }
@@ -382,6 +382,10 @@ body {
     background-color: #909090;
  }
  
+.mediaListItem, .otherWebsitesListItem {
+    border-radius: 10px;
+}
+
  /* Images CSS */
  
  img {
