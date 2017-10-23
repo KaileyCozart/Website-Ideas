@@ -334,6 +334,40 @@ body {
     height: 500px;
  }
  
+ @media screen and (max-width: 970px){
+    .mediaListItemsWrapper {
+        height: 700px;
+        margin-bottom: 500px;
+    }
+    .bottomBubbleContact {
+        height: 1200px;
+    }
+    .footerContact {
+        margin-top: 550px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .mediaListItemsWrapper {
+        height: 250px;
+        margin-bottom: 0px;
+    }
+    .bottomBubbleContact {
+        height: 1650px;
+    }
+    .footerContact {
+        margin-top: 50px;
+    }
+    .specialWhiteText {
+        font-size: 12px;
+    }
+}
+
+.otherWebsitesListItem:hover, .skillsListItem:hover {
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
  .blackContainer {
     background: url(images/blackbackground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
